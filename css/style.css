@@ -1,0 +1,123 @@
+.homeMenu {
+  width: 200px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 6px gray;
+          box-shadow: 1px 1px 6px gray;
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+
+.pagesMenu {
+  width: 200px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 6px gray;
+          box-shadow: 1px 1px 6px gray;
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+
+.shopMenu {
+  width: 1000px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 6px gray;
+          box-shadow: 1px 1px 6px gray;
+  position: absolute;
+  display: none !important;
+}
+
+.navbar .navMenu:hover::before {
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* .navbar .shopMenu{
+
+    display: none  !important;
+} */
+.carousel {
+  position: relative;
+}
+
+.slideText {
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  z-index: 2;
+}
+
+#filter-flowers ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#filter-flowers ul li {
+  list-style: none;
+  margin: 20px;
+  font-size: 18px;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+#filter-flowers ul li:hover {
+  color: #f34f3f;
+}
+
+#filter-flowers .card-element {
+  width: 100%;
+  height: 500px;
+}
+
+#filter-flowers .card-element:hover .card-body .add-to span {
+  opacity: 1 !important;
+  position: absolute;
+  left: 90px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+#filter-flowers .card-element:hover .card-body .add-to span:hover {
+  color: #f34f3f;
+  cursor: pointer;
+}
+
+#filter-flowers .card-element:hover .card-body .prise span {
+  opacity: 0;
+}
+
+#filter-flowers .card-element .card-img img {
+  width: 80%;
+  height: 300px;
+}
+
+#filter-flowers .card-element .card-body {
+  text-align: center;
+}
+
+#filter-flowers .card-element .card-body .prise span {
+  -webkit-transition: .5s all;
+  transition: .5s all;
+  opacity: 1;
+}
+
+#filter-flowers .card-element .card-body .add-to {
+  position: relative;
+}
+
+#filter-flowers .card-element .card-body .add-to span {
+  top: -24px;
+  left: 30px;
+  position: absolute;
+  opacity: 0;
+}
+
+.active {
+  color: #f34f3f;
+}
+/*# sourceMappingURL=style.css.map */
