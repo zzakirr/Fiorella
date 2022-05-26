@@ -36,3 +36,7 @@ $('.filter-button-group').on('click', 'li', function () {
     var filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
 });
+let playIcon = document.querySelector('playIcon');
+playIcon.addEventListener('click',function(){
+    
+})

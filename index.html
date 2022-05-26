@@ -329,26 +329,176 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
+    <section class="bg-light">
+        <div class="container py-5 my-5">
             <div class="row">
-                <div class="col-6">
-                    <img src="./imgs/h3-video-img.jpg" alt="" width="100%"
-                    >
+                <div class="col-6 modalVideo">
+                    <img src="./imgs/h3-video-img.jpg" alt="" width="100%" height="400px">
+                    <div class="">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary playpIcon " data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            <i class="fa-solid fa-play "></i>
+                    </div>
+
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/TLRyl3u1uJQ"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">x</button> -->
+                                    <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6">
+                    <div>
+                        <h1 class="">Suprise Your <span class="text-danger">Valentine!</span>
+                            Let us arrange a smile.</h1>
+                        <p class="text-secondary">Suprise Your Valentine!
+                            Let us arrange a smile.</p>
+                        <img class="d-inline" src="./imgs/h1-custom-icon.png" alt=""> <span>Hand picked just for
+                            you.</span><br>
+                        <img class="d-inline" src="./imgs/h1-custom-icon.png" alt=""> <span>Hand picked just for
+                            you.</span><br>
+                        <img class="d-inline" src="./imgs/h1-custom-icon.png" alt=""> <span>Hand picked just for
+                            you.</span><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5 my-5 text-center">
+                <h1 class="display-4 mb-3">Flower Experts</h1>
+                <p class="text-secondary mb-4">A perfect blend of creativity, energy, communication, happiness and love.
+                    Let
+                    us arrange <br> a smile for you.</p>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="expert_1 d-flex justify-content-center align-items-center flex-column">
+                            <img src="./imgs/h3-team-img-1.png" alt="" width="90%">
+                            <h6 class="mt-3">CRYSTAL BROOKS</h6>
+                            <p class="text-secondary">Florist</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="expert_1  d-flex justify-content-center align-items-center flex-column">
+                            <img src="./imgs/h3-team-img-2.png" alt="" width="90%">
+                            <h6 class="mt-3">CRYSTAL BROOKS</h6>
+                            <p class="text-secondary">Florist</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="expert_1  d-flex justify-content-center align-items-center flex-column">
+                            <img src="./imgs/h3-team-img-3.png" alt="" width="90%">
+                            <h6 class="mt-3">CRYSTAL BROOKS</h6>
+                            <p class="text-secondary">Florist</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="expert_1  d-flex justify-content-center align-items-center flex-column">
+                            <img src="./imgs/h3-team-img-4.png" alt="" width="90%">
+                            <h6 class="mt-3">CRYSTAL BROOKS</h6>
+                            <p class="text-secondary">Florist</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </div>
     </section>
+    <section class="fixedImg ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6 fixedImg-content p-5 my-5 mx-auto text-center">
+                    <h2 class="d-inline ">Join The Colorful Bunch!</h2>
+                    <div class="searchSubscr mt-3">
+                        <input type="text" placeholder="email adress">
+                        <a href="#" class="text-decoration-none text-white bg-danger p-3"><small>SUBSCRIBE</small></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="fromOurBlog " class="pb-5">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-6 mx-auto text-center">
+                    <h2>From our Blog</h2>
+                    <p class="text-secondary">A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you.</p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-4">
+                    <div class="blogImg">
+                        <img src="./imgs/blog-feature-img-1.jpg" alt="" width="100%">
+                        <span></span>
+                    </div>
+                    <div class="container">
+                        <div class="blogText mx-auto text-center mt-3">
+                            <h5>Flower Power</h5>
+                            <p class="text-secondary">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blogImg">
+                        <img src="./imgs/blog-feature-img-3.jpg" alt="" width="100%">
+                        <span></span>
+                    </div>
+                    <div class="container">
+                        <div class="blogText mx-auto text-center mt-3">
+                            <h5>Local Florists</h5>
+                            <p class="text-secondary">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="blogImg">
+                        <img src="./imgs/blog-feature-img-4.jpg" alt="" width="100%">
+                        <span></span>
+                    </div>
+                    <div class="container">
+                        <div class="blogText mx-auto text-center mt-3">
+                            <h5>Flower Beauty</h5>
+                            <p class="text-secondary">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- Jquery Cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-            <!-- Isotp Plugin -->
+    <!-- Isotp Plugin -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
     <!-- bootstrap -->

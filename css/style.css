@@ -120,4 +120,62 @@
 .active {
   color: #f34f3f;
 }
+
+.modalVideo {
+  overflow: hidden;
+  position: relative;
+}
+
+.modalVideo img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.playpIcon {
+  position: absolute;
+  top: 180px;
+  left: 45%;
+  color: orangered;
+  border-radius: 50%;
+  padding: 20px 25px;
+  font-size: 24px;
+  background-color: aliceblue;
+}
+
+.expert_1 img {
+  border-radius: 50%;
+}
+
+.fixedImg {
+  background-image: url("../imgs/h3-background-img.jpg");
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.fixedImg .fixedImg-content h2 {
+  color: white;
+}
+
+.fixedImg .fixedImg-content .searchSubscr input {
+  width: 75%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: none;
+}
+
+#fromOurBlog {
+  background-color: #ebebeb;
+}
 /*# sourceMappingURL=style.css.map */
