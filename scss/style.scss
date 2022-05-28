@@ -111,7 +111,7 @@
     }
 }
 
-.active{
+#filter-flowers .active{
     color:#f34f3f ;
 }
 
@@ -169,4 +169,28 @@
 }
 #fromOurBlog{
     background-color: rgb(235, 235, 235);
+}
+#lastSlide{
+    background-color: rgb(207, 206, 206);
+}
+footer{
+    background-color: rgb(243, 234, 222);
+    span:hover{
+        color: #f34f3f;
+    }
+    ul{
+        li{
+            color: gray;
+        }
+        li:hover{
+            color: #f34f3f;
+            cursor: pointer;
+        }   
+        a{
+            color: gray;
+        }
+        a:hover{
+            color: #f34f3f;
+        }
+    }
 }

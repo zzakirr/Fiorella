@@ -1,8 +1,7 @@
 .homeMenu {
   width: 200px;
   background-color: white;
-  -webkit-box-shadow: 1px 1px 6px gray;
-          box-shadow: 1px 1px 6px gray;
+  box-shadow: 1px 1px 6px gray;
   position: absolute;
   display: none;
   z-index: 5;
@@ -11,8 +10,7 @@
 .pagesMenu {
   width: 200px;
   background-color: white;
-  -webkit-box-shadow: 1px 1px 6px gray;
-          box-shadow: 1px 1px 6px gray;
+  box-shadow: 1px 1px 6px gray;
   position: absolute;
   display: none;
   z-index: 5;
@@ -21,8 +19,7 @@
 .shopMenu {
   width: 1000px;
   background-color: white;
-  -webkit-box-shadow: 1px 1px 6px gray;
-          box-shadow: 1px 1px 6px gray;
+  box-shadow: 1px 1px 6px gray;
   position: absolute;
   display: none !important;
 }
@@ -31,7 +28,6 @@
   height: 1px;
   width: 100%;
   background-color: gray;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -52,8 +48,6 @@
 }
 
 #filter-flowers ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -61,7 +55,6 @@
   list-style: none;
   margin: 20px;
   font-size: 18px;
-  -webkit-transition: all .8s;
   transition: all .8s;
 }
 
@@ -78,7 +71,6 @@
   opacity: 1 !important;
   position: absolute;
   left: 90px;
-  -webkit-transition: 1s all;
   transition: 1s all;
 }
 
@@ -101,7 +93,6 @@
 }
 
 #filter-flowers .card-element .card-body .prise span {
-  -webkit-transition: .5s all;
   transition: .5s all;
   opacity: 1;
 }
@@ -117,7 +108,7 @@
   opacity: 0;
 }
 
-.active {
+#filter-flowers .active {
   color: #f34f3f;
 }
 
@@ -128,9 +119,7 @@
 
 .modalVideo img:hover {
   cursor: pointer;
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
-  -webkit-transition: all 0.7s;
+  transform: scale(1.03);
   transition: all 0.7s;
 }
 
@@ -152,12 +141,8 @@
 .fixedImg {
   background-image: url("../imgs/h3-background-img.jpg");
   height: 500px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,5 +162,34 @@
 
 #fromOurBlog {
   background-color: #ebebeb;
+}
+
+#lastSlide {
+  background-color: #cfcece;
+}
+
+footer {
+  background-color: #f3eade;
+}
+
+footer span:hover {
+  color: #f34f3f;
+}
+
+footer ul li {
+  color: gray;
+}
+
+footer ul li:hover {
+  color: #f34f3f;
+  cursor: pointer;
+}
+
+footer ul a {
+  color: gray;
+}
+
+footer ul a:hover {
+  color: #f34f3f;
 }
 /*# sourceMappingURL=style.css.map */
